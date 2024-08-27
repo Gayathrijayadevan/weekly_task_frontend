@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.location select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.sign-in button {
+    padding: 8px 16px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-bar {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    margin-right: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.nav-bar ul li a:hover {
+    color: #ff4081;
+}
+
+/*---------------------------------------------*/
+
+.container5 {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+.des{
+    display: flex;
+}
+.sneaker-container::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.container5::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+}
+
+.container5::-webkit-scrollbar-track {
+    background-color: #f5f5f5; 
+}
+
+.sneaker-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    margin-right: 20px; 
+    flex-shrink: 0; 
+}
+
+.sneaker-card img {
+    width: 100%;
+    height: auto;
+}
+
+.sneaker-name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.sneaker-price {
+    color:black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
